@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(48, 45, 45);
+}
+
+.spaceEmail {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    border-radius: 8px;
+    padding: 50px;
+    max-width: 400px;  
+    border: 6px dashed red;
+   background-color: azure;
+}
+
+h1 {
+    color: red;
+}
+
+label {
+    font-weight: bolder;
+}
+
+input {
+    border: 1 px solid black;
+    border-radius: 8px;
+    padding: 10px 0;
+}
+
+#checkAccess {
+    padding:10px;
+    background-color:rgb(255, 0, 0);
+    color: white;
+    font-weight:bolder;
+    border: 0;
+    border-radius: 8px;
+}
+
+.accesso-consentito {
+    color: rgb(32, 174, 0);
+    font-weight: bolder;
+}
+
+.accesso-negato {
+    color: red;
+    font-weight: bolder;
+
+}

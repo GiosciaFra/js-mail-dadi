@@ -26,11 +26,11 @@ checkAccessElement.addEventListener("click",
         const risultatoElement = document.getElementById("risultato");
 
         if (accessoConsentito) {
-
+            risultatoElement.className = "accesso-consentito";
             risultatoElement.textContent = "Accesso consentito. Benvenuto!";
 
         } else {
-
+            risultatoElement.className = "accesso-negato";
             risultatoElement.textContent = "Accesso negato, la tua email non è valida!";
         }
     }
